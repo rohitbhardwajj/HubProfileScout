@@ -107,7 +107,7 @@ html, body {
   background-color: #1C283A;
   border: 0.1px solid rgba(128, 128, 128, 0.432);
   border-radius: 5px;
-  padding: 10px 10px;
+  padding: 20px 10px;
   position: relative;
   margin-top: 20px;
 }
@@ -257,7 +257,8 @@ html, body {
     width: 90px;
   }
   .main .content .right {
-    height: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 100%;
   }
   .main .content .right h4 {
