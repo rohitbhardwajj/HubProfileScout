@@ -95,6 +95,9 @@ html, body {
   -o-object-position: top;
      object-position: top;
   margin-top: 20px;
+  padding: 2px;
+  background-color: #1C283A;
+  border: 0.1px solid rgba(128, 128, 128, 0.432);
 }
 .main .content .right {
   height: 90%;
