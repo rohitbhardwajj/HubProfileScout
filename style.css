@@ -253,4 +253,25 @@ html, body {
     height: 60%;
     width: 100%;
   }
+  .main .content .right .followers {
+    width: 100%;
+    height: 10%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .main .content .right .followers p {
+    color: #07aef0;
+    font-size: 13px;
+  }
+  .main .content .right a {
+    color: wheat;
+    position: absolute;
+    text-decoration: none;
+    cursor: pointer;
+    bottom: 2%;
+    right: 2%;
+    font-size: clamp(10px, 1vw, 25px);
+  }
 }/*# sourceMappingURL=style.css.map */

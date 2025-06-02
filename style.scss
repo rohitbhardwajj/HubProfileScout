@@ -281,8 +281,38 @@ html,body{
             width: 100%;
             // background-color: brown;
 
+
+             .followers{
+                width: 100%;
+                // background-color: tomato;
+                height: 10%;
+                margin-top: 8px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                p{
+                  color: #07aef0;
+                  font-size: 13px;
+                }
+            }
+            a{
+                // color: #07aef0;
+                color: wheat;
+                position: absolute;
+                text-decoration: none;
+                cursor: pointer;
+                bottom: 2%;
+                right: 2%;
+                 font-size: clamp(10px,1vw,25px);;
+            }
+
            
         }
+        
     }
+   
 }
+
+
 }
