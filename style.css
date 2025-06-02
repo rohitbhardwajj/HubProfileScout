@@ -30,6 +30,7 @@ html, body {
   background: linear-gradient(blue, lightblue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 35px;
 }
 .main p {
   text-align: center;
