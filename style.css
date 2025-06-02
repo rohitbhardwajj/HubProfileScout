@@ -116,7 +116,7 @@ html, body {
 }
 .main .content .right p {
   color: white;
-  font-size: clamp(8px, 1vw, 25px);
+  font-size: clamp(10px, 1.2vw, 25px);
   margin-top: 15px;
   line-height: 1;
 }
