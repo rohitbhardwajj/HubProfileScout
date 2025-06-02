@@ -52,7 +52,7 @@ html, body {
   border-radius: 5px;
   background-color: #1C283A;
   border: 0.1px solid rgba(128, 128, 128, 0.432);
-  font-size: clamp(12px, 1.3vw, 15px);
+  font-size: clamp(16px, 1.5vw, 20px);
   padding: 0px 10px;
   display: flex;
   justify-content: center;
@@ -101,7 +101,8 @@ html, body {
   border: 0.1px solid rgba(128, 128, 128, 0.432);
 }
 .main .content .right {
-  height: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 80%;
   background-color: #1C283A;
   border: 0.1px solid rgba(128, 128, 128, 0.432);
